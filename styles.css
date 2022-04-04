@@ -1,0 +1,75 @@
+body {
+    font-family: Overpass, sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+}
+
+.content {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 40px;
+}
+
+.rating {
+    color: hsl(217, 12%, 63%); 
+    display: flex;
+}
+
+.rating-box{
+    background-color: hsl(213, 19%, 18%);
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(210, 100%, 2%));
+    border-radius: 25px;
+    max-width: 350px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3%;
+}
+
+.submit-button {
+    background-color: hsl(25, 97%, 53%);
+    font-family: Overpass, sans-serif;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 40%;
+    border-radius: 25px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    letter-spacing: 3px;
+}
+
+.rating-numbers {
+    font-family: Overpass, sans-serif;
+    background-color: hsla(217, 12%, 63%, 0.11);
+    border: none;
+    border-radius: 50%;
+    padding: 15px 20px;
+    margin: auto;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-options {
+    display: flex;
+}
+
+.fa-star {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(217, 12%, 63%, 0.11);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.rating-numbers:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
